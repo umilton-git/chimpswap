@@ -7,7 +7,7 @@ contract ChimpswapV2ERC20 is IChimpswapV2ERC20 {
     using SafeMath for uint;
 
     string public constant name = 'Chimpswap V2';
-    string public constant symbol = 'UNI-V2';
+    string public constant symbol = 'CHP-V2';
     uint8 public constant decimals = 18;
     uint  public totalSupply;
     mapping(address => uint) public balanceOf;
